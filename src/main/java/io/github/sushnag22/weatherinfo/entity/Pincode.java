@@ -17,6 +17,12 @@ public class Pincode {
     @Column(unique = true, nullable = false)
     private String pincode;
 
+    private String area;
+
+    private String city;
+
+    private String state;
+
     private Double latitude;
 
     private Double longitude;
